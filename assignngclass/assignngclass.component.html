@@ -1,0 +1,21 @@
+
+ <table class="table">
+    <thead>
+         <th *ngFor=" let element of head" >
+             {{element}}
+         </th>
+         
+    </thead> 
+     
+     <tr *ngFor=" let rows of row">
+         <td *ngFor=" let element of head"  >
+             {{rows[element]}}
+             
+             
+ 
+         </td>
+     </tr>
+    
+   
+    
+ </table>
